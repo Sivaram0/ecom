@@ -1,0 +1,35 @@
+*{ 
+    margin:0;
+    padding:0;
+}
+#carousel slide{
+    width:400px;
+    height:200px;
+    position:absolute;
+}
+.card-img-top{
+    width:250px;
+    height:300px;
+}
+.col{
+    padding:2px;
+    margin: 15px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.card-title{
+    text-align: center;
+}
+#btn{
+    border-radius: 2px;
+    margin:5px;
+    
+}
+.dropdown{
+    margin-left: 90%;
+    
+}
+#search{
+ margin-left: 90px;
+ margin-top: 10px;
+}

@@ -1,0 +1,112 @@
+<div class="container-fluid">
+    <div id="search">
+     <input type="search" placeholder="search hoods">
+     <button type="submit" id="btn" class="btn btn-secondary">search</button>
+    
+       <div class="dropdown">
+           
+         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+           filter
+         </button>
+         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+           <li><a class="dropdown-item" href="#">price:high to low</a></li>
+           <li><a class="dropdown-item" href="#">price:low to high</a></li>
+           <li><a class="dropdown-item" href="#">average customer review</a></li>
+         </ul>
+     </div>
+       </div>
+       <div class="row row-cols- row-cols-md-5 g-4">
+         <div class="col">
+           <div class="card h-60">
+             <img src="assets/hood1.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Arrow</h5>
+               <h6 class="card-title">items{{rs}}</h6>
+              <div>
+                  <button id="btn" (click)="add()" type="button" class="btn btn-success">add to cart</button> &nbsp;
+                  <button id="btn" (click)="remove()" type="button" class="btn btn-danger">remove</button>
+              </div>
+             
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card h-60">
+             <img src="assets/hood2.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">puma</h5>
+               <h6 class="card-title">items{{rs}}</h6>
+             </div>
+             <div>
+              <button id="btn" (click)="add()" type="button" class="btn btn-success">add to cart</button> &nbsp;
+              <button id="btn" (click)="remove()" type="button" class="btn btn-danger">remove</button>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card h-60">
+             <img src="assets/hood3.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h5 class="card-title">Nike</h5>
+               <h6 class="card-title">items{{rs}}</h6>
+             </div>
+             <div>
+              <button id="btn" (click)="add()" type="button" class="btn btn-success">add to cart</button> &nbsp;
+              <button id="btn" (click)="remove()" type="button" class="btn btn-danger">remove</button>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+             <div class="card h-60">
+               <img src="assets/hood14.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">one8</h5>
+                 <h6 class="card-title">items{{rs}}</h6>
+               </div>
+               <div>
+                <button id="btn" (click)="add()" type="button" class="btn btn-success">add to cart</button> &nbsp;
+                <button id="btn" (click)="remove()" type="button" class="btn btn-danger">remove</button>
+             </div>
+             </div>
+           </div>
+           <div class="col">
+             <div class="card h-60">
+               <img src="assets/hood11.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Addidas</h5>
+                 <h6 class="card-title">items{{rs}}</h6>
+               </div>
+               <div>
+                <button id="btn" (click)="add()" type="button" class="btn btn-success">add to cart</button> &nbsp;
+                <button id="btn" (click)="remove()" type="button" class="btn btn-danger">remove</button>
+             </div>
+             </div>
+           </div>
+           <div class="col">
+             <div class="card h-60">
+               <img src="assets/hood12.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">a|x</h5>
+                 <h6 class="card-title">items{{rs}}</h6>
+               </div>
+               <div>
+                <button id="btn" (click)="add()" type="button" class="btn btn-success">add to cart</button> &nbsp;
+                <button id="btn" (click)="remove()" type="button" class="btn btn-danger">remove</button>
+             </div>
+             </div>
+           </div>
+           <div class="col">
+             <div class="card h-60">
+               <img src="assets/hood13.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">tommy</h5>
+                 <h6 class="card-title">items{{rs}}</h6>
+               </div>
+               <div>
+                <button id="btn" (click)="add()" type="button" class="btn btn-success">add to cart</button> &nbsp;
+                <button id="btn" (click)="remove()" type="button" class="btn btn-danger">remove</button>
+             
+             </div>
+             </div>
+           
+           </div>

@@ -1,0 +1,25 @@
+<div>
+    <form>
+        <input type="text" name="username" [(ngModel)]="username" class="form-control">
+    </form>
+    <!-- <h3>{{un}}</h3> -->
+</div>
+<section class="mt-3">
+<div class="container">
+
+    
+<div class="row">
+    <div class="col-md-4">
+   <div class="card shadow-lg">
+       <div class="card-body">
+           <h5 *ngIf="true">Welcome</h5>
+           <h4 *ngIf="true">sivarama</h4>
+       </div>
+       <br>
+       <div class="card-body">
+            <h4 *ngIf="isLoggedin">gfska</h4>
+            <h4 *ngIf="!isLoggedin">huhuhuhuhuu</h4>
+       </div>
+   </div>
+    </div>
+    

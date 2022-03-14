@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+}
+.background-img{
+    background-image: url("https://t3.ftcdn.net/jpg/02/92/90/58/240_F_292905838_rN5r6v57EiHifrmbeCiD5gydCMBP46xl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+.login{
+    width:320px;
+    height:400px;
+    background-color: rgb(12, 43, 84);
+    left:80%;
+    position: absolute;
+    transform:translate(-50%,50%);
+    border-radius: 5%;
+    box-sizing: border-box ;
+    top:10px;
+  
+}
+.avatar{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    position:absolute;
+    top:5%;
+    left:35%;
+}
+.logingroup{
+    text-align: center;
+    margin-top: 120px;
+
+}
+h5{
+    color:lavender;
+    padding:2px;
+}
+#btn{
+    border-radius: 10%;
+}
+a{
+    color:lavender;
+    text-decoration: none;
+
+}
+.logingroup input[type="text"],input[type="password"],[type="email"]{
+    border: none;
+    border-bottom:  1px solid white;
+    background:transparent;
+    outline:none;
+    height:4;
+    color:white;
+}
+.dc{
+    width:50px;
+    height:100px;
+}
+.card{
+    align-items: center;
+    margin-left: 450px;
+    font-weight: bold;
+}

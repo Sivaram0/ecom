@@ -1,0 +1,13 @@
+.footer{
+    background-color: black;
+    color:cornsilk;
+    margin-top:2%;
+}
+#src{
+    width:20px;
+    height:20px;
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+}

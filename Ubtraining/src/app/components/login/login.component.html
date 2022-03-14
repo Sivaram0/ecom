@@ -1,0 +1,19 @@
+<body>
+    <div class="background-img">
+        <div class="card" style="width: 10rem;">
+            {{date()}}<br>
+            {{time()}}
+         </div>
+            <div class="login">
+                <img src="https://as1.ftcdn.net/v2/jpg/02/59/39/46/1000_F_259394679_GGA8JJAEkukYJL9XXFH2JoC3nMguBPNH.jpg" alt="login sym" class="avatar">
+              <form class="logingroup" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <h5>Login</h5>
+                <input type="email" placeholder="Email" class="form-control" formControlName="email"><br><br>
+                <input type="password" placeholder="password" class="form-control" formControlName="password"><br><br>
+                <button id="btn" class="btn btn-success" type="submit"[disabled]="!loginForm.valid">Log-in</button> &nbsp;
+                <button id="btn" class="btn btn-danger" type="reset">Reset</button> <br><br>
+                <a routerLink="../forgot-password">forgot password</a>
+              </form>
+            </div>
+    </div>
+</body>

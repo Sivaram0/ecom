@@ -1,0 +1,34 @@
+*{
+    font-family: sans-serif;
+    
+}
+.background{
+    background-image: url("https://as1.ftcdn.net/v2/jpg/04/53/45/00/1000_F_453450052_hJlO2cPfL4rBzcWlyrJOSyJwbcoWkCix.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1350px;
+    height:100vh;
+    
+}
+#about{
+   text-align:center;   
+   color:white;
+   padding:33px;
+}
+p,span{
+    color:blanchedalmond;
+    padding:2px;
+    margin-left: 2px;
+}
+.box{
+    width:200px;
+    height:340px;
+    background-color: rgb(169, 159, 156);
+    padding:5px;
+    margin:5px;
+    
+}
+.boxset{
+   padding:120px;
+   margin-top: 420px;
+}

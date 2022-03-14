@@ -1,0 +1,73 @@
+{
+    "contacts":[
+        {
+            "id":"AAA1",
+            "name":"itrajula",
+            "company": "info",
+            "email":"sadkf@gmail",
+            "title":"software",
+            "mobile":123456789,
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCWM3ZgYCm7y9bZlf1VyUCCCX7tQSksznB6g&usqp=CAU",
+            "groupId":2
+        },
+        {
+            "id":"khssjagfj56",
+            "name":"kalfinf",
+            "company": "foxview",
+            "email":"saddelpak@gmail",
+            "title":"upsc",
+            "mobile":9876555556,
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCWM3ZgYCm7y9bZlf1VyUCCCX7tQSksznB6g&usqp=CAU",
+            "groupId":2
+        },
+        {
+            "id":"ad224",
+            "name":"raa",
+            "company": "fo",
+            "email":"rttf@gmail",
+            "title":"ware",
+            "mobile":7788956789,
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbJondqDQ1U9pW8i_H_Iq9oAuf9hPdRYu_vA&usqp=CAU",
+            "groupId":1
+        },
+
+        {
+            "id":"ooi984",
+            "name":"pads",
+            "company": "capgemini",
+            "email":"prasad@gmail",
+            "title":"center",
+            "mobile":2234444789,
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-qrH48jlV_AL8CbIbDL1BcFn9tOInVKBSRA&usqp=CAU",
+            "groupId":9
+        },
+        {
+            "id":"qqq984",
+            "name":"uyupads",
+            "company": "wini",
+            "email":"kellajasad@gmail",
+            "title":"jefhwef",
+            "mobile":1111111789,
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-qrH48jlV_AL8CbIbDL1BcFn9tOInVKBSRA&usqp=CAU",
+            "groupId":7
+        }
+    ],
+
+"groups":[
+    {
+        "id":"1",
+        "name":"coluge"
+    },
+    
+    {
+        "id":"2",
+        "name":"soft"
+    },
+    {
+        "id":"3",
+        "name":"gard"
+    }
+
+
+]
+}
